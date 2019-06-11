@@ -21,10 +21,10 @@ const skill_list = [
     "img/skills/unity.png",
 ];
 
-var shuffle = function (array) {
+let shuffle = function (array) {
 
-    var currentIndex = array.length;
-    var temporaryValue, randomIndex;
+    let currentIndex = array.length;
+    let temporaryValue, randomIndex;
 
     // While there remain elements to shuffle...
     while (0 !== currentIndex) {
