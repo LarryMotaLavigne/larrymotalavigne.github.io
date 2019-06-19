@@ -45,6 +45,7 @@ Array.prototype.forEach.call(shuffle(skill_list), function (element) {
     let img = document.createElement('img');
     img.setAttribute('src', element);
     img.setAttribute('class', 'skill' );
+    img.setAttribute('alt', element.split("/").pop().split(".")[0] + '_logo');
     document.getElementById('skill_list').appendChild(img);
 });
 
