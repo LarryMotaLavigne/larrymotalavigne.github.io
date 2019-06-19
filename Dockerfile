@@ -1,3 +1,3 @@
 FROM nginx:stable-alpine
-COPY nginx/nginx.conf /etc/nginx/nginx.conf
-ADD web /usr/share/nginx/html
+#COPY nginx/nginx.conf /etc/nginx/nginx.conf
+ADD docs /usr/share/nginx/html
