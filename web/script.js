@@ -3,22 +3,22 @@ document.oncontextmenu = new Function("return false;");
 
 // Generate random skill
 const skill_list = [
-    "web/img/skills/angular.png",
-    "web/img/skills/django.png",
-    "web/img/skills/docker.png",
-    "web/img/skills/gdpr.png",
-    "web/img/skills/git.png",
-    "web/img/skills/gitlab.png",
-    "web/img/skills/hibernate.png",
-    "web/img/skills/linux.png",
-    "web/img/skills/mysql.png",
-    "web/img/skills/owasp.png",
-    "web/img/skills/pci-dss.png",
-    "web/img/skills/postgresql.png",
-    "web/img/skills/react.png",
-    "web/img/skills/spring-boot.png",
-    "web/img/skills/spring.png",
-    "web/img/skills/unity.png",
+    "web/images/skills/angular.png",
+    "web/images/skills/django.png",
+    "web/images/skills/docker.png",
+    "web/images/skills/gdpr.png",
+    "web/images/skills/git.png",
+    "web/images/skills/gitlab.png",
+    "web/images/skills/hibernate.png",
+    "web/images/skills/linux.png",
+    "web/images/skills/mysql.png",
+    "web/images/skills/owasp.png",
+    "web/images/skills/pci-dss.png",
+    "web/images/skills/postgresql.png",
+    "web/images/skills/react.png",
+    "web/images/skills/spring-boot.png",
+    "web/images/skills/spring.png",
+    "web/images/skills/unity.png",
 ];
 
 let shuffle = function (array) {
