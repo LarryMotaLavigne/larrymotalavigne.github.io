@@ -3,22 +3,22 @@ document.oncontextmenu = new Function("return false;");
 
 // Generate random skill
 const skill_list = [
-    "img/skills/angular.png",
-    "img/skills/django.png",
-    "img/skills/docker.png",
-    "img/skills/gdpr.png",
-    "img/skills/git.png",
-    "img/skills/gitlab.png",
-    "img/skills/hibernate.png",
-    "img/skills/linux.png",
-    "img/skills/mysql.png",
-    "img/skills/owasp.png",
-    "img/skills/pci-dss.png",
-    "img/skills/postgresql.png",
-    "img/skills/react.png",
-    "img/skills/spring-boot.png",
-    "img/skills/spring.png",
-    "img/skills/unity.png",
+    "web/img/skills/angular.png",
+    "web/img/skills/django.png",
+    "web/img/skills/docker.png",
+    "web/img/skills/gdpr.png",
+    "web/img/skills/git.png",
+    "web/img/skills/gitlab.png",
+    "web/img/skills/hibernate.png",
+    "web/img/skills/linux.png",
+    "web/img/skills/mysql.png",
+    "web/img/skills/owasp.png",
+    "web/img/skills/pci-dss.png",
+    "web/img/skills/postgresql.png",
+    "web/img/skills/react.png",
+    "web/img/skills/spring-boot.png",
+    "web/img/skills/spring.png",
+    "web/img/skills/unity.png",
 ];
 
 let shuffle = function (array) {
@@ -44,7 +44,7 @@ let shuffle = function (array) {
 Array.prototype.forEach.call(shuffle(skill_list), function (element) {
     let img = document.createElement('img');
     img.setAttribute('src', element);
-    img.setAttribute('class', 'skill' )
+    img.setAttribute('class', 'skill' );
     document.getElementById('skill_list').appendChild(img);
 });
 
