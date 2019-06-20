@@ -1,11 +1,8 @@
-'use strict';
+let CACHE_NAME = 'airhorner';
 
-const CACHE_NAME = 'Larry-Resume-cache';
-
-const FILES_TO_CACHE = [
-    '/',
+let FILES_TO_CACHE = [
     '/index.html',
-    '/web/script/app.js',
+    '/web/scripts/app.js',
     '/web/stylesheet.css',
     '/web/SF Distant Galaxy Outline.ttf',
     '/web/images/icons/photo.jpg',
@@ -27,8 +24,9 @@ const FILES_TO_CACHE = [
     '/web/images/skills/react.png',
     '/web/images/skills/spring-boot.png',
     '/web/images/skills/spring.png',
-    '/web/images/skills/unity.png',
+    '/web/images/skills/unity.png'
 ];
+
 self.addEventListener('install', (evt) => {
     evt.waitUntil(
         caches.open(CACHE_NAME).then(cache => cache.addAll(FILES_TO_CACHE))
