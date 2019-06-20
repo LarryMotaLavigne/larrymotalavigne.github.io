@@ -1,3 +1,5 @@
+'use strict';
+
 // Disable right click on page
 document.oncontextmenu = new Function("return false;");
 

@@ -6,14 +6,19 @@
     <meta content="Resume, Larry, Software Engineer" name="keywords"/>
     <meta content="Larry Mota--Lavigne" name="author"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="Weather PWA" name="apple-mobile-web-app-title">
+    <meta content="#000000" name="theme-color"/>
     <title>Larry Mota--Lavigne</title>
     <link href="web/images/favicon.ico" rel="icon">
     <link href="web/stylesheet.css" media="all" rel="stylesheet">
     <link href="manifest.json" rel="manifest">
+    <link href="web/images/icons/152.png" rel="apple-touch-icon">
 </head>
 <body>
 <main>
-    <img alt="Profile picture" class="photo" src="web/images/profilePicture/photo.jpg"/>
+    <img alt="Profile picture" class="photo" src="web/images/icons/photo.jpg"/>
     <h1 class="name">Larry Mota&#8209;&#8209;Lavigne</h1>
     <div class="links">
         <a aria-label="Access to my Github profile" href="https://github.com/Squalex" rel="noreferrer"
@@ -32,6 +37,17 @@
 <footer>
     ©2011-2019, Larry Mota--Lavigne
 </footer>
-<script src="web/script.js"></script>
+<script src="web/scripts/app.js"></script>
+<!--<script src="web/scripts/install.js"></script>-->
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then((reg) => {
+                    console.log('Service worker registered.', reg);
+                });
+        });
+    }
+</script>
 </body>
 </html>

@@ -3,38 +3,39 @@
   "short_name": "Larry Resume",
   "icons": [
     {
-      "src": "web/images/profilePicture/128.png",
+      "src": "web/images/icons/128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "web/images/profilePicture/144.png",
+      "src": "web/images/icons/144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "web/images/profilePicture/152.png",
+      "src": "web/images/icons/152.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "web/images/profilePicture/192.png",
+      "src": "web/images/icons/192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "web/images/profilePicture/256.png",
+      "src": "web/images/icons/256.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "web/images/profilePicture/512.png",
+      "src": "web/images/icons/512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#FFFFFF",
+  "orientation": "portrait",
   "theme_color": "#000000"
 }
