@@ -23,7 +23,7 @@ const skill_list = [
     "web/images/skills/unity.png",
 ];
 
-let shuffle = function (array) {
+const shuffle = function (array) {
 
     let currentIndex = array.length;
     let temporaryValue, randomIndex;
