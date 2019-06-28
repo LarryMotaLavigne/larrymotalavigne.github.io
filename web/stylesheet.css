@@ -92,7 +92,7 @@ footer {
 }
 .skill {
     flex: 1 0 100%;
-    width: 15%;
+    width: 7%;
     margin: 1%;
 }
 
@@ -124,5 +124,11 @@ a {
 
     main {
         margin-bottom: 5%;
+    }
+}
+
+@media (max-device-width: 900px) {
+    .skill {
+        width: 15%;
     }
 }
